@@ -5,7 +5,7 @@ import Prelude
 import Effect (Effect)
 import Effect.Console (log, logShow)
 
-diagonal ∷ Number → Number → Number
+diagonal :: Number -> Number -> Number
 diagonal w h = sqrt (w * w + h * h)
 
 -- Exercise 1: `circleArea`
