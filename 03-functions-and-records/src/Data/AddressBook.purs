@@ -41,3 +41,6 @@ findEntry firstName lastName b = head $ filter f b
   where
     f :: Entry -> Boolean
     f e = e.firstName == firstName && e.lastName == lastName
+
+printEntry :: String -> String -> AddressBook -> Maybe String
+printEntry f l b = map show (findEntry f l b)
