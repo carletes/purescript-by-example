@@ -10,7 +10,7 @@ diagonal w h = sqrt (w * w + h * h)
 
 -- Exercise 1: `circleArea`
 
-circleArea ∷ Number → Number
+circleArea :: Number -> Number
 circleArea r = pi * r * r
 
 main :: Effect Unit
